@@ -1,0 +1,27 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Estilo da barra de rolagem */
+.trat-scrollbar::-webkit-scrollbar {
+    width:18px; /* Largura da barra de rolagem */
+  }
+  
+  .trat-scrollbar::-webkit-scrollbar-track {
+    background: #31363F; /* Cor do fundo da barra */
+    border-radius: 4px; /* Borda arredondada */
+  }
+  
+  .trat-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #222831; /* Cor do "polegar" da barra de rolagem */
+    border-radius: 4px; /* Borda arredondada */
+    border: 10px solid #31363F; /* Cor ao redor do polegar */
+    border-left: 2px;
+  }
+  
+  .trat-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #00CED1; /* Cor ao passar o mouse */
+  }
+  
